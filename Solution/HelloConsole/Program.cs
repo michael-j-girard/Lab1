@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace HelloConsole
 {
@@ -6,7 +10,12 @@ namespace HelloConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello NFCU");
+
+            var argslength = args.Length;
+            Console.WriteLine("Args Length is " + argslength + ".");
+            Console.ReadKey();
+            
+            
         }
     }
 }
